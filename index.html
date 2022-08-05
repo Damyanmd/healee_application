@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Healee Application</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <form id="currenciesExchange">
+        <label for="currencies">Select a currency:</label>
+        <select id="currencies" name="currencies">
+            <option value="usd" selected="selected">USD</option>
+            <option value="eur" >EUR</option>
+            <option value="aud">AUD</option>
+            <option value="cad">CAD</option>
+            <option value="chf">CHF</option>
+            <option value="nzd">NZD</option>
+            <option value="bgn">BGN</option>
+        </select>
+    </form>
+    <div>
+        <p id="group1">Group 1</p>
+        <div id="count1"></div>
+    </div>
+    <div>
+        <p id="group2">Group 2</p>
+        <div id="count2"></div>
+    </div>
+    <div>
+        <p id="group3">Group 3</p>
+        <div id="count3"></div>
+    </div>
+    <div id="longestArray"></div>
+    <script src="index.js"></script>
+    </body>
+</html>
